@@ -1,0 +1,19 @@
+//INPUT
+class Test{
+    public static void main(String[] args){
+    System.out.println("Programming Started");
+    int a=12,b=0,c;
+    try{
+        c=a/b;
+        System.out.println(c);
+    }
+    catch(Exception e){
+        System.out.println(e);
+    }
+    System.out.println("Programming Ended");
+    }
+}
+//OUTPUT
+Programming Started
+java.lang.ArithmeticException: / by zero
+Programming Ended
